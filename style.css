@@ -22,7 +22,7 @@ body {
     text-align: center;
   }
 }
-.main-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -32,7 +32,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.add-item-wrapper {
+.add-task-wrapper {
   display: flex;
 }
 ul {
@@ -59,7 +59,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for="add-item-section-add-item"] {
+label[for="add-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -85,11 +85,11 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="add-item-section-add-item"] {
+label[for="add-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#add-item-wrapper-input {
+input#add-task-input {
   width: 318px;
 }
 
