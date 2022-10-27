@@ -11,16 +11,16 @@
     </link>
   </head>
   <body>
-    <div class="aaa">
+    <div class="header">
       <img src="./eisenhower-matrix.jpg">
-      <a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      <a class="link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </div>
-    <div class="centered-main-page-element">
-      <p id="topSectionForAddingElementToList">
-        <label for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
+    <div class="main-element">
+      <p id="add-item-section">
+        <label for="add-item-section-add-item">Add Item</label>
+        <div class="add-item-wrapper">
           <input 
-              id="new-task"
+              id="add-item-wrapper-input"
               class="task" 
               type="text">
           </input>
@@ -28,7 +28,7 @@
         </div>
       </p>
       <h3>Todo</h3>
-      <ul id="incompleteTasks">
+      <ul id="to-do-tasks">
         <li>
           <input type="checkbox">
           <label class="task">Pay Bills</label>
@@ -36,12 +36,12 @@
           <button class="edit">Edit</button>
           <button class="delete"><img src="./remove.svg"></button>
         </li>
-        <li class="editMode">
+        <li class="edit-mode">
           <input type="checkbox">
           <label class="task">Go Shopping</label>
           <input 
               type="text" 
-              value="Go Shopping" 
+              value="Go Shopping"
               class="task">
           </input>
           <button class="edit">Save</button>
