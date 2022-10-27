@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.header-img{
+.header__img{
   width: 100%;
 }
 
-.header .link{
+.header .header__link{
   font-family: fantasy, cursive;
 }
 
@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.add-task-wrapper {
+.add-task__wrapper {
   display: flex;
 }
 
