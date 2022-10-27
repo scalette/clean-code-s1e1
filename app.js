@@ -10,8 +10,8 @@
 
 var taskInput=document.getElementById("add-task-input");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
-var incompleteTaskHolder=document.getElementById("to-do-tasks");//ul of #incompleteTasks
-var completedTasksHolder=document.getElementById("done-tasks");//completed-tasks
+var incompleteTaskHolder=document.querySelector(".to-do-tasks");//ul of #incompleteTasks
+var completedTasksHolder=document.querySelector(".done-tasks");//completed-tasks
 
 
 //New task list item
@@ -38,9 +38,9 @@ var createNewTaskElement=function(taskString){
   editInput.className="task";
   
   editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
-  editButton.className="edit";
+  editButton.className="button edit";
   
-  deleteButton.className="delete";
+  deleteButton.className="button delete";
   deleteButtonImg.src='./remove.svg';
   deleteButton.appendChild(deleteButtonImg);
   

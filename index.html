@@ -10,9 +10,9 @@
         charset="utf-8">
     </link>
   </head>
-  <body>
+  <body class="page">
     <div class="header">
-      <img src="./eisenhower-matrix.jpg">
+      <img class="header-img" src="./eisenhower-matrix.jpg">
       <a class="link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </div>
     <div class="main">
@@ -24,17 +24,17 @@
               class="task" 
               type="text">
           </input>
-          <button>Add</button>
+          <button class="button">Add</button>
         </div>
       </p>
       <h3>Todo</h3>
-      <ul id="to-do-tasks">
+      <ul class="to-do-tasks">
         <li>
           <input type="checkbox">
           <label class="task">Pay Bills</label>
           <input type="text" class="task">
-          <button class="edit">Edit</button>
-          <button class="delete"><img src="./remove.svg"></button>
+          <button class="button edit">Edit</button>
+          <button class="button delete"><img src="./remove.svg"></button>
         </li>
         <li class="edit-mode">
           <input type="checkbox">
@@ -44,18 +44,18 @@
               value="Go Shopping"
               class="task">
           </input>
-          <button class="edit">Save</button>
-          <button class="delete"><img src="./remove.svg"></button>
+          <button class="button edit">Save</button>
+          <button class="button delete"><img src="./remove.svg"></button>
         </li>
       </ul>
       <h3>Completed</h3>
-      <ul id="done-tasks">
+      <ul class="done-tasks">
         <li>
           <input type="checkbox" checked>
           <label class="task">See the Doctor</label>
           <input type="text" class="task">
-          <button class="edit">Edit</button>
-          <button class="delete"><img src="./remove.svg"></button>
+          <button class="button edit">Edit</button>
+          <button class="button delete"><img src="./remove.svg"></button>
         </li>
       </ul>
     </div>
